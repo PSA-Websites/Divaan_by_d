@@ -15,7 +15,7 @@
 <footer><strong>Divaan_by_d</strong><br><br>Minimal jewelry for every day.<br><br>WhatsApp: +91 88709 05877<br>© 2026 Divaan_by_d. All rights reserved.</footer>
 <a class="wa" href="https://wa.me/918870905877?text=Hello%20Divaan_by_d!%20I%20have%20a%20question%20about%20your%20jewelry.">WhatsApp</a>
 <script>
-const products=[["Everyday Mini Hoops","129","Earrings"],["Classic Chain",under "399","Chains"],["Tiny Neckpiece","229","Necklaces"],["Minimal Gold Bracelet","299","Bracelets"],["Everyday Stack Ring","129","Rings"],["Dainty Earrings","149","Earrings"],["Minimal Pendant Necklace","399","Necklaces"],["Classic Everyday Hoops","129","Earrings"]];
+const products=[["Everyday Mini Hoops","129","Earrings"],["Classic Chain","399","Chains"],["Tiny Neckpiece","229","Necklaces"],["Minimal Gold Bracelet","299","Bracelets"],["Everyday Stack Ring","129","Rings"],["Dainty Earrings","149","Earrings"],["Minimal Pendant Necklace","399","Necklaces"],["Classic Everyday Hoops","129","Earrings"]];
 const box=document.getElementById("products");
 products.forEach(([name,price,cat])=>{let m=encodeURIComponent("Hello Divaan_by_d! I would like to order:\n\nProduct: "+name+"\nPrice: ₹"+price+"\nQuantity: 1\n\nPlease send me the payment and delivery details.");box.innerHTML+=`<article class="card"><img src="public/jewelry-placeholder.svg" alt="${name}"><h3>${name}</h3><small>${cat}</small><p class="price">₹${price}</p><a class="btn" style="width:100%;text-align:center" href="https://wa.me/918870905877?text=${m}">BUY NOW / GET DETAILS!!</a></article>`});
 </script></body></html>
